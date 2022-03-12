@@ -1,0 +1,24 @@
+{
+  "name": "wordgame",
+  "version": "1.0.0",
+  "description": "Wordle game",
+  "main": "main.js",
+  "type": "module",
+  "scripts": {
+    "test": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matodorovic/wordgame.git"
+  },
+  "author": "Marta Anna Todorovic <martaannatodorovic@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/matodorovic/wordgame/issues"
+  },
+  "homepage": "https://github.com/matodorovic/wordgame#readme",
+  "devDependencies": {
+    "jest": "^27.5.1",
+    "supertest": "^6.2.2"
+  }
+}
