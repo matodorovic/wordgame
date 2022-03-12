@@ -26,6 +26,7 @@ function check(word1, word2) {
     for (let i=0; i < word1.length; i++) {
         //console.log(word1[i]);
         array1.push(word1[i]);
+
     }
 
     console.log(array1);
@@ -38,6 +39,18 @@ function check(word1, word2) {
     }
 
     console.log(array2);
+
+    for (let i=0; i< array1.length; i++) {
+        if (array2[i] === array1[i]) {
+            let obj = {letter: array2[i], result: "correct"};
+            newArray.push(obj);
+        } else {
+            let obj2 = {letter: array2[i], result: "incorrect"};
+            newArray.push(obj2);
+        }
+    }
+    
+    console.log(newArray);
 
 
     
