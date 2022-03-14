@@ -5,7 +5,7 @@
   "main": "main.js",
   "type": "module",
   "scripts": {
-    "test": ""
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js"
   },
   "repository": {
     "type": "git",
@@ -18,7 +18,6 @@
   },
   "homepage": "https://github.com/matodorovic/wordgame#readme",
   "devDependencies": {
-    "jest": "^27.5.1",
-    "supertest": "^6.2.2"
+    "jest": "^27.5.1"
   }
 }
