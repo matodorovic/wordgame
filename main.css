@@ -28,15 +28,36 @@ h1 {
 ul li {
     list-style-type: none;
     display: inline-block;
+    margin-left: 3rem;
 }
 
 .correct {
-    color: grön;
+    color: green;
     font-size: 2rem;
 }
 
 .incorrect {
-    color: röd;
+    color: red;
     font-size: 2rem;
+}
+
+.mis {
+    color: black;
+    font-size: 2rem;
+}
+
+.green-item {
+    color: green;
+    margin: 1rem;
+}
+
+.red-item {
+    color: red;
+    margin: 1rem;
+}
+
+.black-item {
+    color: black;
+    margin: 1rem;
 }
 

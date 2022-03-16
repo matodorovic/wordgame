@@ -19,7 +19,9 @@ btnWord1.addEventListener("click", () => {
   console.log(word1, word1.length);
   btnWord1.disabled = true;
   word1Print.append("*****");
+  document.querySelector(".chosen").value = null;
   }
+  
 });
 
 btnWord2.addEventListener("click", () => {
@@ -34,6 +36,6 @@ btnWord2.addEventListener("click", () => {
     btnWord2.disabled = true;
     word2Print.append(word2);
     checkWords(word1, word2);
-
   }
+  document.querySelector(".guess").value = null;
 });
